@@ -1,3 +1,18 @@
+Trying rxdb with hasura
+
+https://hasura.io/learn/graphql/react-rxdb-offline-first/introduction/
+
+> In this course, we will look at how to make a web app offline first using a client-side database that is synced securely with Postgres.
+
+--------------------------------------------
+
+I found the secret auth0 callback URL: `http://localhost:3000/callback`. Put this in the file `src/componects/auth0-variables.js` and in the auth0 UI -- `applications > allowed callback URLs`.
+
+And just like that it works. It's a miracle
+
+
+-------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
